@@ -5,8 +5,7 @@ from unittest.mock import mock_open, patch
 import pandas as pd
 import pytest
 
-from src.utils import (currency_rates, filter_date_operations,
-                       get_data_from_excel, greeting_user, operations_cards,
+from src.utils import (currency_rates, filter_date_operations, get_data_from_excel, greeting_user, operations_cards,
                        stock_prices, top_five_transactions)
 
 
